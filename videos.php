@@ -27,14 +27,14 @@ include('class/Video.php');
 <!--[if !IE]><!-->
 <?
     $videos = 
-            [
-                new Video('It had to be you au concert de fin d\'année (Lambesc, 10/12/2023)',
-                        'https://www.youtube.com/embed/C570gH90w1o'),
-                new Video('Round Midnight au "3ème Festival des Big Bands du 13" (Rognac, 13/10/2018)',
-                        'https://www.youtube.com/embed/CkQA-_rjfQM'),
-                new Video('Fever au "3ème Festival des Big Bands du 13" (Rognac, 13/10/2018)',
-                        'https://www.youtube.com/embed/qI3zonExEBw') 
-            ]
+        [
+            new Video('It had to be you (Lambesc, 10/12/2023)',
+                    'https://www.youtube.com/embed/C570gH90w1o'),
+            new Video('Round Midnight (Rognac, 13/10/2018)',
+                    'https://www.youtube.com/embed/CkQA-_rjfQM'),
+            new Video('Fever (Rognac, 13/10/2018)',
+                    'https://www.youtube.com/embed/qI3zonExEBw') 
+        ]
 ?>
 
 <body>
